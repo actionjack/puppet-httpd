@@ -1,9 +1,9 @@
 # httpd::service
 class httpd::service {
   service { 'httpd':
-    hasrestart => 'true',
-    hasstatus  => 'true',
-    enable     => 'true',
     ensure     => 'running',
+    hasrestart => true,
+    hasstatus  => true,
+    enable     => true,
   }
 }

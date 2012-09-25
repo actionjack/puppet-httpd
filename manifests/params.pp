@@ -1,3 +1,3 @@
-# = tomcat::params
-class tomcat::params {
+# = httpd::params
+class httpd::params {
 }

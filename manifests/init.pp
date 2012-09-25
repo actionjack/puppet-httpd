@@ -26,6 +26,7 @@ class httpd {
   require httpd::params
   include httpd::packages
   include httpd::service
+  include httpd::config
 
   Class['httpd::packages'] -> Class['httpd::service']
 }
